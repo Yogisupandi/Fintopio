@@ -31,7 +31,14 @@ To get started with the bot, follow these steps:
 ### 1. `configs.json` 📜 - Adjust configuration
 
 ```json
-{ "limit": 100, "countdown": 300, "country_time": "en-US", "isBugging": false }
+{
+  "limit": 100,
+  "countdown": 300,
+  "country_time": "en-US",
+  "isBugging": false,
+  "delayEachAccount": [5, 8],
+  "skipInvalidProxy": false
+}
 
 ```
 
